@@ -3,9 +3,9 @@
 This repository will feature a collection of projects while studying for MSc in Computer Science from the University of Bath
 ## Units:
 1. Principles of Programming (In Progress)
-2. Software Engineering (Part One)
+2. Software Engineering 1
 3. Foundations of Computation
-4. Software Engineering (Part Two)
+4. Software Engineering 2
 5. Databases and Cloud
 6. Functional Programming
 7. Artificial Intelligence
@@ -20,7 +20,3 @@ This repository will feature a collection of projects while studying for MSc in 
   * Week Number
     * Lesson Number
       * Lesson Exercise Files
-## Primary Programming Languages:
-  *   C
-  *   Java
-  *   Python
