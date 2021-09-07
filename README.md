@@ -18,5 +18,4 @@ This repository will feature a collection of projects while studying for MSc in 
 ## Repository Structure:
 * Unit Name
   * Week Number
-    * Lesson Number
       * Lesson Exercise Files
