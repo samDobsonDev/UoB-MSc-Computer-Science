@@ -12,19 +12,21 @@
  */
 
 int fibonacci3(int term){
-  int x = 0;
-  int y = 1;
-  int sum;
+  int prev = 0;
+  int current = 1;
+  int next;
 
   for (int i = 1; i < term; i++) {
-    sum = x + y;
-    x = y;
-    y = sum;
+    next = prev + current;
+    prev = current;
+    current = next;
   }
-  return sum;
+  return current;
 }
 
 int main(void) {
-  printf("\n\nThe 4th Fibonacci Number is: %d", fibonacci3(4));
+  printf("\nThe 1st Fibonacci Number is: %d", fibonacci3(1));
+  printf("\nThe 4th Fibonacci Number is: %d", fibonacci3(4));
   printf("\nThe 7th Fibonacci Number is: %d", fibonacci3(7));
   return 0;
+}
